@@ -87,3 +87,26 @@ print(f'O valor em metros cubicos será {metrocubico} Litros')
 kg = 500
 libras = 500 / 0.45
 print(f'O valor convertido em libras será {libras}')
+
+# ler o valor da hora de trabalho e horas trabalhadas no mês depois adicionar 10% sobre o valor calculado
+
+valorhora = 11
+horames = 11 * 8 * 30
+print(horames)
+desconto = horames / 100 * 10
+print(f'O valor a ser pago ao funcionário será de R$ {desconto}0')
+#print(int(desconto)
+# CONVERTENDO PARA INTEIRO
+
+# Mostrar Total a pagar 10% + valor de cada parcela 3x / comissao de 5% do vendedor
+
+
+valorcompra = 100
+descont = valorcompra / 10
+print(f'O desconto sob a compra será de R${descont}0')
+semjuros = 90 / 3
+print(f'O valor de cada parcela divido em 3x será de R${semjuros}0')
+descont5 = 90 / 100 * 5
+print(f'A comissão do vendedor sobre a venda a vista será de R${descont5}0')
+descont55 = 100 / 100 * 5
+print(f'A comissao do vendedor sobre a venda parcelada será de R${descont
